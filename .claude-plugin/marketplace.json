@@ -1,0 +1,19 @@
+{
+  "name": "claude-clickable-prs",
+  "owner": {
+    "name": "Ellen Chen",
+    "url": "https://github.com/ellenrchen"
+  },
+  "plugins": [
+    {
+      "name": "clickable-prs",
+      "source": "./",
+      "description": "Make pull request references like #123 or web-app #456 in Claude's replies clickable GitHub links",
+      "category": "productivity",
+      "tags": ["links", "pull-requests", "github", "hyperlinks", "mod", "terminal"]
+    }
+  ],
+  "metadata": {
+    "description": "Make pull request references in Claude's replies clickable"
+  }
+}

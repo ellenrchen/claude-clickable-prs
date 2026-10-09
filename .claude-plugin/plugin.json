@@ -1,0 +1,27 @@
+{
+  "name": "clickable-prs",
+  "description": "Make pull request references like #123 or web-app #456 in Claude's replies clickable GitHub links",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ellen Chen",
+    "url": "https://github.com/ellenrchen"
+  },
+  "homepage": "https://github.com/ellenrchen/claude-clickable-prs",
+  "repository": "https://github.com/ellenrchen/claude-clickable-prs",
+  "license": "MIT",
+  "keywords": ["links", "pull-requests", "github", "hyperlinks", "mod", "terminal", "claude-code"],
+  "userConfig": {
+    "defaultRepo": {
+      "type": "string",
+      "title": "Default repository",
+      "description": "owner/repo that a bare #123 links to. Empty uses the working directory's GitHub origin.",
+      "default": ""
+    },
+    "repos": {
+      "type": "string",
+      "title": "Named repositories",
+      "description": "Comma-separated owner/repo list. A repo's name before the number picks it, as in web-app #456.",
+      "default": ""
+    }
+  }
+}
